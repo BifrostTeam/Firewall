@@ -10,7 +10,7 @@
  * 
  * @param path Path to the file on the Linux file system.
  * 
- * @return An unsigned 64-bit value of the data inside the value (uint64_t).
+ * @return An unsigned 64-bit value of the data inside the file (uint64_t).
  */
 uint64_t getstat(const char *path)
 {

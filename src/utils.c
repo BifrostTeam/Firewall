@@ -6,8 +6,6 @@
 #include <inttypes.h>
 #include <errno.h>
 
-extern int errno;
-
 /**
  * Retrieves data from a file within the Linux file system and returns its value as an unsigned 64-bit value (uint64_t). Useful for getting statistics such as networking in /sys/class/net/<interface>/statistics/.
  * 
